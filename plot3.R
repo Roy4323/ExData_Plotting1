@@ -10,7 +10,7 @@
 
 
 
->with(data1, {
+>with(subdata, {
   plot(Sub_metering_1~Datetime, type="l", ylab="Energy sub metering", xlab="")
   lines(Sub_metering_2~Datetime,col='Red')
   lines(Sub_metering_3~Datetime,col='Blue')
